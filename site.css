@@ -1,0 +1,127 @@
+body {
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    font-size: 120%;
+    line-height: 1.5;
+}
+em {
+    font-style: italic;    
+}
+footer {
+    margin: 20px 40px;
+    padding: 20px;
+}
+img {
+    width: 15%;
+}
+main {
+    float: left;
+    width: 85%;
+}
+main a {
+    color: #851944;
+    padding-bottom: 24px;
+}
+main div {
+    margin: auto;
+    padding: 30px 0px;
+    padding-bottom: 60px;
+    padding-right: 30px;
+    padding-top: 120px;
+    width: 75%;
+}
+nav a {
+    color: #F2FFFC;
+}
+p {
+    margin: 20px 0px;
+    text-align: justify;
+}
+strong {
+    font-weight: bold;
+}
+ul {
+    color: pink;
+}
+ul li a {
+    color: inherit;
+}
+
+.clearfix {
+    clear:both;
+}
+.github {
+    background-image: url(../img/github.png);
+}
+.icones-redes-sociais li {
+    display: inline-block;
+}
+.icones-redes-sociais a {
+    color: transparent;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+.minha-foto {
+    background-image: url(../img/eu.jpeg);
+    position: absolute;
+    height: 250px;
+    top: 0px;
+    right: 0px;
+    width: 20%;
+}
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: 0px;
+    padding: 10px;
+    position: absolute;
+    top: 250px;
+    right: 0px;
+    text-align: center;
+    text-transform: lowercase;
+    width: 15%;
+}
+.minha-foto, .navegacao-site {
+    box-sizing: border-box;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    float: right;
+}
+.rodape-pagina {
+    background-color: #000;
+    bottom: 0px;
+    color: #F2FFFC;
+    left: 0;
+    margin: 0px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;    
+}
+.titulo-principal {
+    background-color: #851944;
+    border-bottom: 5px solid #000;
+    color: #FFF;
+    float: left;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.titulo-secundario {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 30px;
+}
+.subtitulo-texto {
+    clear: both;
+}
+.twitter { 
+    Background-image: url(../img/twitter.png);
+}
