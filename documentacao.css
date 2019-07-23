@@ -1,0 +1,9 @@
+
+
+git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg2.exe"
+gpg --list-secret-keys --keyid-format LONG
+	gpg --gen-key
+gpg --list-secret-keys --keyid-format LONG
+gpg --armor --export F8A197406D342062
+git config --global user.signingkey F8A197406D342062
+
